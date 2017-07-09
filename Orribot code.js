@@ -9,3 +9,5 @@ client.on("guildMemberAdd", (member) => {
     newUsers.clear();
   }
 });
+bot.on("message", function(message){ if(message.content === "!welcome"){bot.reply(message,"http://bit.ly/2aAhY5u");}
+});
